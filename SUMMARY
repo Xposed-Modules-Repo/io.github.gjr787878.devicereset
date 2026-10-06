@@ -1,1 +1,1 @@
-LSPosed module: Auto-generate new device identity after clearing app data. Spoof Android ID, Advertising ID, IMEI, device model, MAC, GSF ID, carrier info.
+LSPosed module: spoof a fresh device identity for picked apps without opening LSPosed Manager. Pick a target in-app -> Random/Customize -> Save (manual trigger) -> reopen the app. Spoofs Android ID, Advertising ID, IMEI/MEID, IMSI/ICCID, device model, MAC, GSF ID, serial, carrier. Sentinel-driven injection (zero overhead for non-targets), clear-data helper, trilingual UI (zh/en/ru), glass UI with System/Installed filter.
